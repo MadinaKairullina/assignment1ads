@@ -51,7 +51,7 @@ def power(a, b):
 a = int(input())
 b = int(input())
 print(power(a, b))
-#Space:O(n) Time:O(n)
+#Space:O(b) Time:O(b)
 
 # 6
 def sum_digits(n):
@@ -61,7 +61,7 @@ def sum_digits(n):
 
 n = int(input())
 print(sum_digits(n))
-
+#Space:O(n) Time:O(n)
 
 # 7
 def count_digits(n):
@@ -71,7 +71,7 @@ def count_digits(n):
 
 n = int(input())
 print(count_digits(n))
-
+#Space:O(n) Time:O(n)
 
 # 8
 def reverse_num(n):
@@ -83,7 +83,7 @@ def reverse_num(n):
 n = int(input())
 reverse_num(n)
 print()
-
+#Space:O(n) Time:O(n)
 
 # 9
 def fib(n):
